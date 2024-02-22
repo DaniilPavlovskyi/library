@@ -1,0 +1,25 @@
+section img {
+    margin-left: 32px;
+    width: 64px;
+    height: 64px;
+}
+
+.book-image {
+    max-width: 200px;
+    border-radius: 8px;
+}
+
+.book-details {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.author-link {
+    color: #3498db;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.author-link:hover {
+    color: burlywood;
+}

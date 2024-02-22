@@ -1,0 +1,51 @@
+li img {
+    margin-left: 32px;
+    width: 64px;
+    height: 64px;
+}
+
+.books-grid {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+.book-item {
+    width: 30%;
+    margin: 10px;
+    text-align: left;
+}
+
+.pagination {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.pagination a {
+    padding: 8px 12px;
+    margin-right: 8px;
+    text-decoration: none;
+    color: white;
+    background-color: #3498db;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.pagination a:hover {
+    background-color: burlywood;
+}
+
+.book-button {
+    background: #3498db;
+    color: white;
+    border: 1px solid black;
+    transition: background-color 0.3s;
+    width: 115px;
+    height: 25px;
+    margin-top: 10px;
+}
